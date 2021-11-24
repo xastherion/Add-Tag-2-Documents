@@ -2,8 +2,8 @@
 mkdir ~/Documents-Temp
 rsync -a ~/Documents/ ~/Documents-Temp/
 mkdir -m 0700 ~/D
-echo "Please add a Tag to D in Finder and press ENTER if you are ready with the Tag for D to continue"
-say  "Please add a Tag to D in Finder and press ENTER if you are ready with the Tag for D to continue"
+echo "Please add a Tag to D in Finder. If you are ready with the Tag for D to continue, press ENTER"
+say  "Please add a Tag to D in Finder. If you are ready with the Tag for D to continue, press ENTER"
 read "ENTER"
 chmod -N ~/Documents
 rm -r ~/Documents 
